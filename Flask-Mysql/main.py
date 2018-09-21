@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request, redirect
-from flask_wtf import Form
-from wtforms import StringField, PasswordField
-from wtforms.validators import InputRequired, Email, Length, AnyOf
+
 from flask_bootstrap import Bootstrap
 from flaskext.mysql import MySQL
 
